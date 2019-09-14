@@ -210,3 +210,18 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page CSS*/
+
+.top-section {
+    width: 100%;
+    padding: 0 1%;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    justify-content: space-around;
+}
+
+.text-content{
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
