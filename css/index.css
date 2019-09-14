@@ -81,6 +81,7 @@ p {
 }
 
 .nav a {
+    color: black;
     text-decoration: none;
 }
 
@@ -234,17 +235,37 @@ footer nav a {
 }
 
 .info-box {
-    width: 50%;
+    width: 45%;
+    margin: 2%;
+    padding-bottom: 30px;
     border-bottom: 1px dashed black;
+}
+.info-box p {
+    padding-bottom: 30px; 
 }
 
 .info-box a{
+    color: black;
     text-decoration: none;
 }
 
-.middle-section h2 {
-    padding: 0 2%;
+.middle-section h1 {
+    padding: 3% 0;
     margin-bottom: 0;
+}
+
+.middle-section a{
+    margin: 5% 0;
+    width: 30%;
+    padding: 7px 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.middle-section a:hover {
+    background: black;
+    color: white;
 }
 
 .middle-section .boxes {
@@ -256,6 +277,6 @@ footer nav a {
 .bottom-section {
     width: 100%;
     padding: 0 1%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     justify-content: space-around;
 }
