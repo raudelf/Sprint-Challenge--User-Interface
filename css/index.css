@@ -225,3 +225,37 @@ footer nav a {
     padding: 0 1%;
     padding-bottom: 20px;
 }
+
+.middle-section {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-box {
+    width: 50%;
+    border-bottom: 1px dashed black;
+}
+
+.info-box a{
+    text-decoration: none;
+}
+
+.middle-section h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+
+.middle-section .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.bottom-section {
+    width: 100%;
+    padding: 0 1%;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
